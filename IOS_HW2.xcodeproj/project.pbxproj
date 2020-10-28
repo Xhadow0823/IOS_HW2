@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0750B3C22549E38200F03946 /* IOS_HW2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3C12549E38200F03946 /* IOS_HW2App.swift */; };
-		0750B3C42549E38200F03946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3C32549E38200F03946 /* ContentView.swift */; };
 		0750B3C62549E38500F03946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0750B3C52549E38500F03946 /* Assets.xcassets */; };
 		0750B3C92549E38500F03946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0750B3C82549E38500F03946 /* Preview Assets.xcassets */; };
+		0750B3D52549E42400F03946 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3D12549E42400F03946 /* ResultView.swift */; };
+		0750B3D62549E42400F03946 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3D22549E42400F03946 /* AppView.swift */; };
+		0750B3D72549E42400F03946 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3D32549E42400F03946 /* WeatherData.swift */; };
+		0750B3D82549E42400F03946 /* CityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750B3D42549E42400F03946 /* CityData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0750B3BE2549E38200F03946 /* IOS_HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0750B3C12549E38200F03946 /* IOS_HW2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW2App.swift; sourceTree = "<group>"; };
-		0750B3C32549E38200F03946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0750B3C52549E38500F03946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0750B3C82549E38500F03946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0750B3CA2549E38500F03946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0750B3D12549E42400F03946 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		0750B3D22549E42400F03946 /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0750B3D32549E42400F03946 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		0750B3D42549E42400F03946 /* CityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		0750B3C02549E38200F03946 /* IOS_HW2 */ = {
 			isa = PBXGroup;
 			children = (
+				0750B3D22549E42400F03946 /* AppView.swift */,
+				0750B3D42549E42400F03946 /* CityData.swift */,
+				0750B3D12549E42400F03946 /* ResultView.swift */,
+				0750B3D32549E42400F03946 /* WeatherData.swift */,
 				0750B3C12549E38200F03946 /* IOS_HW2App.swift */,
-				0750B3C32549E38200F03946 /* ContentView.swift */,
 				0750B3C52549E38500F03946 /* Assets.xcassets */,
 				0750B3CA2549E38500F03946 /* Info.plist */,
 				0750B3C72549E38500F03946 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0750B3C42549E38200F03946 /* ContentView.swift in Sources */,
 				0750B3C22549E38200F03946 /* IOS_HW2App.swift in Sources */,
+				0750B3D52549E42400F03946 /* ResultView.swift in Sources */,
+				0750B3D82549E42400F03946 /* CityData.swift in Sources */,
+				0750B3D72549E42400F03946 /* WeatherData.swift in Sources */,
+				0750B3D62549E42400F03946 /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
